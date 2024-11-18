@@ -7,7 +7,7 @@ import logo from '../assets/logo.png'
 const Second_About = () => {
 
     const data = [
-        { img: Experience, Hobbie: "Experience", time: "2+ years", dev: "Frontend Development" },
+        { img: Experience, Hobbie: "Experience", time: "6+ month", dev: "Frontend Development" },
         { img: education, Hobbie: "Education", time: "BCA Bachelors Degree", dev: "ㅤ" }
     ]
 
