@@ -7,7 +7,7 @@ import logo from '../assets/logo.png'
 const Second_About = () => {
 
     const data = [
-        { img: Experience, Hobbie: "Experience", time: "6+ month", dev: "Frontend Development" },
+        { img: Experience, Hobbie: "Experience", time: "6+ month", dev: "MERN Stack Developer" },
         { img: education, Hobbie: "Education", time: "BCA Bachelors Degree", dev: "ㅤ" }
     ]
 
@@ -29,7 +29,7 @@ const Second_About = () => {
                                     })
                                 }
                             </div>
-                            <p className='ml-[5%] xl:ml-8 w-[90%] xl:w-[85%] flex justify-start text-left mt-8 text-[#555555] font-bold'>I’m Jignesh, a front-end developer with experience in HTML, CSS, JavaScript, and React. I specialize in creating responsive, user-friendly websites that deliver great user experiences. I’m passionate about writing clean, efficient code and staying up-to-date with the latest web trends. My goal is to combine functionality and design to build seamless digital experiences.</p>
+                            <p className='ml-[5%] xl:ml-8 w-[90%] xl:w-[85%] flex justify-start text-left mt-8 text-[#555555] font-bold'>I’m Jignesh, a MERN Stack developer with experience in React, Express.js, Node.js, cloudinary, MongoDB and more. I specialize in creating responsive, user-friendly websites that deliver great user experiences. I’m passionate about writing clean, efficient code and staying up-to-date with the latest web trends. My goal is to combine functionality and design to build seamless digital experiences.</p>
                         </div>
                     </div>
                 </div>

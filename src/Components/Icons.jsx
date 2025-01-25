@@ -16,11 +16,11 @@ const Icons = ({seticons}) => {
                             <FaAngleRight className='w-fit h-fit py-8 cursor-pointer' onClick={()=>seticons(false)}/>
                         </div>
                         <div className='px-6 pt-4'>
-                            <RiLinkedinFill className='mb-6 cursor-pointer transition duration-200 hover:text-[#111111] hover:scale-[1.15]' />
-                            <BsTwitter className='mb-6 cursor-pointer transition duration-200 hover:text-[#111111] hover:scale-[1.15]' />
-                            <RxInstagramLogo className='mb-5 cursor-pointer transition duration-200 hover:text-[#111111] hover:scale-[1.15]' />
-                            <MdOutlineMailOutline className='mb-6 cursor-pointer transition duration-200 hover:text-[#111111] hover:scale-[1.15]' />
-                            <VscGithubInverted className='mb-6 cursor-pointer transition duration-200 hover:text-[#111111] hover:scale-[1.15]' />
+                            <a href="https://www.linkedin.com/in/jignesh-makvana-03bba6322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><RiLinkedinFill className='mb-6 cursor-pointer transition duration-200 hover:text-[#111111] hover:scale-[1.15]' /></a>
+                            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fjignesh_x04"><BsTwitter className='mb-6 cursor-pointer transition duration-200 hover:text-[#111111] hover:scale-[1.15]' /></a>
+                            <a href="https://www.instagram.com/jignesh_x04/?utm_source=qr&igsh=eGR2NXNmd2prZXRj#"><RxInstagramLogo className='mb-5 cursor-pointer transition duration-200 hover:text-[#111111] hover:scale-[1.15]' /></a>
+                            <a href="mailto:jigneshmakvana077@gmail.com?subject=Exciting%20Job%20Opportunity%20at%20[Company%20Name]&body=Hello Jignesh, I would like to..."><MdOutlineMailOutline className='mb-6 cursor-pointer transition duration-200 hover:text-[#111111] hover:scale-[1.15]' /></a>
+                            <a href="https://github.com/jignesh0703"><VscGithubInverted className='mb-6 cursor-pointer transition duration-200 hover:text-[#111111] hover:scale-[1.15]' /></a>
                         </div>
                     </div>
                 </div>

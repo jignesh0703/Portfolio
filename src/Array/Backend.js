@@ -5,19 +5,23 @@ const Backend = [
     },
     {
         name : 'MongoDB',
-        category : 'Intermediate'
+        category : 'Experienced'
     },
     {
         name : 'Node JS',
-        category : 'Intermediate'
+        category : 'Experienced'
     },
     {
         name : 'Express JS',
-        category : 'Intermediate'
+        category : 'Experienced'
+    },
+    {
+        name : 'JWT',
+        category : 'Experienced'
     },
     {
         name : 'Git',
-        category : 'Intermediate'
+        category : 'Experienced'
     },
 ]
 

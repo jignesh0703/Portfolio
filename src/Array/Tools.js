@@ -13,10 +13,10 @@ const Tools = [
     },
     {
         name : 'JavaScript',
-        category : 'Basic'
+        category : 'Advance'
     },
     {
-        name : 'PHP',
+        name : 'Redux',
         category : 'Experienced'
     },
 ]

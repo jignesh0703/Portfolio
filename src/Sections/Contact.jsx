@@ -8,12 +8,12 @@ const Contact = () => {
         {
             img: email,
             name: 'jigneshmakvana077@gmail.com',
-            link: '#'
+            link: 'mailto:jigneshmakvana077@gmail.com?subject=Exciting%20Job%20Opportunity%20at%20[Company%20Name]&body=Hello Jignesh, I would like to...'
         },
         {
             img: linkedin,
             name: 'Linkedin',
-            link: '#'
+            link: 'https://www.linkedin.com/in/jignesh-makvana-03bba6322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'
         }
     ]
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import laptop from '../assets/laptop.png'
 
 const Laptop = ({imgs,name,category,paragraf,github_link,live_demo,array}) => {
     return (
@@ -8,17 +7,14 @@ const Laptop = ({imgs,name,category,paragraf,github_link,live_demo,array}) => {
                 <div className='flex flex-col md:flex-row md:mt-8 lg:mt-0'> 
                     <div className='duration-300 transition flex lg:ml-[-2rem] xl:ml-0'>
                         <div className='flex w-[15rem] sm:w-[20rem] md:w-[15rem] lg:w-[25rem] xl:w-[25rem] 2xl:w-[30rem] ml-[1rem] sm:ml-[6rem] md:ml-0 overflow-hidden z-30 transition'>
-                            <img src={laptop} alt="laptop_img" />
-                        </div>
-                        <div className='absolute w-[11.2rem] sm:w-[15rem] md:w-[11.5rem] lg:w-[19rem] xl:w-[19rem] 2xl:w-[23rem] mt-[2.2rem] sm:mt-[3rem] md:mt-11 lg:mt-[3.5rem] xl:mt-[3.7rem] 2xl:mt-[4.2rem] ml-[2.9rem] sm:ml-[8.5rem] md:ml-7 lg:ml-[3rem] 2xl:ml-[3.6rem] overflow-hidden z-0'>
-                            <img src={imgs} alt="demo_photo" />
+                            <img src={imgs} alt="laptop_img" />
                         </div>
                     </div>
                     <div className='w-[17rem] sm:w-[28rem] flex flex-col text-left justify-center sm:ml-8'>
                         <h1 className='font-bold text-[2rem]'>{name}</h1>
                         <h1 className='mt-1 font-bold'>({category})</h1>
                         <p className='mt-3 lg:w-[25rem] xl:w-[35rem]'>{paragraf}</p>
-                        <div className='flex gap-x-2 sm:gap-x-4 gap-y-2 w-[18rem] sm:w-[30rem] md:w-[25rem] lg:w-[25rem] xl:w-[40rem] flex-wrap mt-4'>
+                        <div className='flex gap-x-2 sm:gap-x-4 gap-y-2 w-[18rem] sm:w-[30rem] md:w-[25rem] lg:w-[25rem] xl:w-[38rem] flex-wrap mt-4'>
                         {
                             array.map((item, index) => (
                                <h1 className='border-black border rounded-[30px] py-1 text-[0.7rem] sm:text-base px-4' key={index}>#{item}</h1>

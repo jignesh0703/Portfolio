@@ -6,22 +6,22 @@ const Technologies = [
         name : 'react'
     },
     {
-        name : 'php'
+        name : 'mongoDB'
     },
     {
-        name : 'mysql'
+        name : 'express.js'
     },
     {
-        name : 'mongoDM'
+        name : 'Node.js'
     },
     {
         name : 'mongoose'
     },
     {
-        name : 'html'
+        name : 'cloudinary'
     },
     {
-        name : 'css'
+        name : 'mysql'
     },
     {
         name : 'bootstrap'
@@ -36,10 +36,7 @@ const Technologies = [
         name : 'github'
     },
     {
-        name : 'terminal'
-    },
-    {
-        name : 'express.js'
+        name : 'aws'
     }
 ]
 
