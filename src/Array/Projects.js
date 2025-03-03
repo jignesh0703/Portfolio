@@ -1,8 +1,26 @@
 import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
+import project4 from '../assets/project4.png'
 
 const Project = [
+    {
+        imgs: project4,
+        name: 'Luxora',
+        category: 'E-Commerce Site',
+        paragraf: 'My e-commerce site, Luxora, provides a seamless shopping experience with user and seller account management. Built with the MERN stack, it offers features like secure payments, product listings, reviews, and a smooth checkout process for an optimized online marketplace.',
+        github_link: 'https://github.com/jignesh0703/Luxora',
+        live_demo: 'https://luxora-1.onrender.com',
+        array: [
+            'React.js',
+            'Node.js',
+            'Express.js',
+            'Mongo DB',
+            'Cloudinary',
+            'JWT',
+            'Axios'
+        ]
+    },
     {
         imgs: project2,
         name: 'Streaming Website',
@@ -16,6 +34,7 @@ const Project = [
             'Express.js',
             'Mongo DB',
             'Cloudinary',
+            'Axios'
         ]
     },
     {
