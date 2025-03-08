@@ -27,7 +27,7 @@ const Project = [
         category: 'system like youtube',
         paragraf: 'My streaming website allows users to upload, watch, and manage videos. Built with the MERN stack, it offers smooth streaming and features like subscriptions, likes, and comments for better engagement.',
         github_link: 'https://github.com/jignesh0703/YT-front-end',
-        live_demo: 'https://mern-stack-virid-ten.vercel.app',
+        live_demo: 'https://yt-front-end.onrender.com',
         array: [
             'React.js',
             'Node.js',
